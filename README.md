@@ -85,7 +85,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: "zoo1:2181,zoo2:2182,zoo3:2183"
       KAFKA_BROKER_ID: 1
       KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
-      # relication facotor      
+      # replication factor
       KAFKA_DEFAULT_REPLICATION_FACTOR : 2
       # partition
       KAFKA_NUM_PARTITIONS: 3
@@ -114,7 +114,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: "zoo1:2181,zoo2:2182,zoo3:2183"
       KAFKA_BROKER_ID: 2
       KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
-      # relication facotor
+      # replication factor
       KAFKA_DEFAULT_REPLICATION_FACTOR : 2
       # partition
       KAFKA_NUM_PARTITIONS: 3
@@ -143,7 +143,7 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: "zoo1:2181,zoo2:2182,zoo3:2183"
       KAFKA_BROKER_ID: 3
       KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
-      # relication facotor
+      # replication factor
       KAFKA_DEFAULT_REPLICATION_FACTOR : 2
       # partition
       KAFKA_NUM_PARTITIONS: 3
